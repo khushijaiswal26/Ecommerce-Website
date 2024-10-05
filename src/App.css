@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+}
+.navContainer{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 2rem;
+}
+.logoContainer{
+  display:flex;
+  gap:0.5rem
+}
+.logoContainer img{
+  width: 1.6rem;
+  height: 1.3rem;
+}
+.logoContainer p{
+  font-weight: 900;
+}
+.optionsContainer{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.optionsContainer a{
+  font-size: 0.6rem;
+  padding: 0.5rem;
+  color: black;
+}
+.optionsContainer button{
+  width: 4rem;
+  height: 1.8rem;
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 0.2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.explore-section {
+  background-color: #f4f4f4;
+  
+  text-align: left;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.letHighlight{
+  background-color: #ffffff;
+  padding: 0 5px;
+}
+
+.highlight {
+  background-color: #ffda44;
+  padding: 0 5px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #777;
+}
+
+.shop-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.shop-btn:hover {
+  background-color: #333;
+}
+
+.brand-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.brand-section img {
+  max-height: 60px;
+  margin: 0 10px;
+}
