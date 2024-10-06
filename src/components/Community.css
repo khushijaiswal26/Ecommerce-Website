@@ -1,0 +1,51 @@
+.community {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fc889c;
+  }
+  
+  .community-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .community-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .community-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+  }
+  
+  .subscription-form {
+    display: flex;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .email-input {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .send-button {
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .send-button:hover {
+    background-color: #333;
+  }

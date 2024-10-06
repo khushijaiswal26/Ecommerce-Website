@@ -1,0 +1,47 @@
+.app-download {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem 1rem;
+    background-color: #dad6d6;
+    margin: 2rem 0;
+  }
+  
+  .download-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .download-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .download-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+  }
+  
+  .store-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .store-button img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .app-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-preview img {
+    max-height: 600px;
+    width: auto;
+  }

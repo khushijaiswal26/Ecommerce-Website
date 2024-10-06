@@ -1,0 +1,51 @@
+.payday-sale {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fc889c;
+   
+    margin: 2rem 0;
+  }
+  
+  .sale-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .sale-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .sale-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sale-date {
+    font-weight: bold;
+  }
+  
+  .terms {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .shop-now {
+    background-color: #000;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 1rem;
+  }
+  
+  .sale-image img {
+    width: 100%;
+    border-radius: 8px;
+  }

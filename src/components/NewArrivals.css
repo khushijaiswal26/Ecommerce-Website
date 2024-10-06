@@ -1,0 +1,40 @@
+.new-arrivals {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .new-arrivals h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .arrivals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .arrival-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .arrival-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .arrival-card h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .arrival-card p {
+    font-weight: bold;
+    color: #333;
+  }

@@ -1,0 +1,51 @@
+.youngs-favorite {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .youngs-favorite h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .favorite-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .favorite-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .favorite-content {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    color: #000;
+  }
+  
+  .favorite-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .explore-link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .explore-link:hover {
+    text-decoration: underline;
+  }
